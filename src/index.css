@@ -1,0 +1,10 @@
+@import "tailwindcss";
+*{
+    font-family: 'Roboto', monospace;
+    background-color: #f4f3f2;
+    scroll-behavior: smooth;
+  }
+ 
+  
+  
+  
