@@ -1,6 +1,6 @@
 @import "tailwindcss";
 *{
-    font-family: 'Poppins', monospace;
+  font-family: "Montserrat", serif;
     background-color: #f4f3f2;
     scroll-behavior: smooth;
   }
