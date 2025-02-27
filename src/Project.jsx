@@ -43,7 +43,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="object-cover w-full h-full"
+                  className="object-fill w-full h-full"
                 />
               </div>
               <div className="p-4">
