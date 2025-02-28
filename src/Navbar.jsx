@@ -9,7 +9,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="bg-white text-xl border-gray-200 shadow-md">
+    <nav className="bg-white text-xl  border-gray-200 shadow-xs">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="#about"

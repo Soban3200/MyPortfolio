@@ -38,15 +38,15 @@ const Projects = () => {
             rel="noopener noreferrer"
             className="hover:scale-105 transition-transform duration-300"
           >
-            <div className="flex flex-col bg-white border border-slate-300 rounded-lg hover:shadow-lg transition-shadow duration-300">
-              <div className="relative h-56 overflow-hidden rounded-t-lg">
+            <div className="flex flex-col bg-white border border-slate-300 rounded-lg hover:shadow-lg transition-shadow duration-300 h-full">
+              <div className="relative  overflow-hidden rounded-t-lg">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="object-fill w-full h-full"
+                  className="object-cover w-full h-full"
                 />
               </div>
-              <div className="p-4">
+              <div className="p-4 flex-grow">
                 <h6 className="mb-2 text-slate-800 text-xl font-semibold">
                   {project.title}
                 </h6>

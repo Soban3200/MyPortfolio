@@ -27,7 +27,7 @@ const Hero = () => {
                 behavior: "smooth",
               });
             }}
-            className="px-6 py-2 shadow-[inset_0_0_0_2px_#616467] text-black rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#111212] hover:text-blue-600 transition duration-200"
+            className="px-6 py-2 shadow-[inset_0_0_0_2px_#616467] text-black rounded-full tracking-widest uppercase font-bold bg-transparent  hover:text-blue-600 transition duration-200 "
           >
             Contact Info
           </button>
@@ -38,7 +38,7 @@ const Hero = () => {
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <button className="px-6 py-2 shadow-[inset_0_0_0_2px_#616467] text-black rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-blue-600  transition duration-200">
+            <button className="px-6 py-2 shadow-[inset_0_0_0_2px_#616467] text-black rounded-full tracking-widest uppercase font-bold bg-transparent  hover:text-blue-600  transition duration-200">
               Download CV
             </button>
           </a>
