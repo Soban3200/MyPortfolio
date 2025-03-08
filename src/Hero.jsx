@@ -18,28 +18,33 @@ const Hero = () => {
         <p className="text-2xl text-gray-600">
           I'm a web developer and Computer repair technician.
         </p>
-        
+
         {/* Buttons Section */}
-        <div className="flex gap-4 mt-4">
-          <button 
+        <div className="flex gap-2 mt-4">
+          <button
             onClick={() => {
               document.querySelector("#contact").scrollIntoView({
                 behavior: "smooth",
               });
             }}
-            className="px-6 py-2 shadow-[inset_0_0_0_2px_#616467] text-black rounded-full tracking-widest uppercase font-bold bg-transparent  hover:text-blue-600 transition duration-200 "
+            className="px-4 py-2 shadow-[inset_0_0_0_2px_#616467] text-black rounded-full tracking-widest uppercase font-bold bg-transparent  hover:text-blue-600 transition duration-200 "
           >
             Contact Info
           </button>
 
-          <a 
-            href="/CV.pdf" 
+          <a
+            href="/CV.pdf"
             download="Soban_Babu_CV.pdf"
-            target="_blank" 
+            target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-6 py-2 shadow-[inset_0_0_0_2px_#616467] text-black rounded-full tracking-widest uppercase font-bold bg-transparent  hover:text-blue-600  transition duration-200">
+            <button className="px-4 py-2 shadow-[inset_0_0_0_2px_#616467] text-black rounded-full tracking-widest uppercase font-bold bg-transparent  hover:text-blue-600  transition duration-200">
               Download CV
+            </button>
+          </a>
+          <a href="https://drive.google.com/file/d/1mvXFxLUb7iiemHOSqFUTyfxbaSAy85XQ/view?usp=drivesdk">
+            <button className="px-4 py-2 shadow-[inset_0_0_0_2px_#616467] text-black rounded-full tracking-widest uppercase font-bold bg-transparent  hover:text-blue-600  transition duration-200">
+              Download My App
             </button>
           </a>
         </div>
@@ -51,14 +56,20 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size={45} className="hover:text-gray-700 transition duration-200"/>
+            <FaGithub
+              size={45}
+              className="hover:text-gray-700 transition duration-200"
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/soban3200"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size={45} className="hover:text-blue-600 transition duration-200"/>
+            <FaLinkedin
+              size={45}
+              className="hover:text-blue-600 transition duration-200"
+            />
           </a>
         </div>
       </div>

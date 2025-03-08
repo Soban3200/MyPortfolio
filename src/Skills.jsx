@@ -2,7 +2,7 @@ import React from "react";
 import checkmark from './assets/checkmark.png';
 
 const Skills = () => {
-  const frontendSkills = ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"];
+  const frontendSkills = ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS","React Native"];
   const backendSkills = ["Node.js", "Express", "MongoDB"];
   const repairSkills = [
     "Hardware Troubleshooting",

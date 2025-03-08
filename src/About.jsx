@@ -1,5 +1,5 @@
 import React from "react";
-import Myimage2 from "./assets/MyImage2.jpg"
+import Myimage2 from "./assets/MyImage2.jpg";
 import experience from "./assets/experience.png";
 import education from "./assets/education.png";
 
@@ -7,7 +7,9 @@ const About = () => {
   return (
     <>
       {/* Main Container */}
-      <h1 id="about" className="text-center  text-3xl mt-20 ">About Me</h1>
+      <h1 id="about" className="text-center  text-3xl mt-20 ">
+        About Me
+      </h1>
       <div className="flex flex-col  md:flex-row  mt-16 p-4 gap-4">
         {/* Left Side - Image */}
         <div className="md:w-1/3  p-2 w-full flex justify-center md:justify-start">
@@ -52,9 +54,11 @@ const About = () => {
               I'm Soban Babu, a former Computer Technician now pursuing a career
               in Web Development. My background in tech support has honed my
               problem-solving skills, and I'm now focused on building responsive
-              web applications using the MERN stack and Tailwind CSS. I'm
-              excited to bring my technical expertise and passion for coding to
-              the world of web development.
+              web applications using the MERN stack and Tailwind CSS.
+              Additionally, I'm learning React Native to expand my skills in
+              mobile app development. I'm excited to bring my technical
+              expertise and passion for coding to both web and mobile
+              development.
             </p>
           </div>
         </div>
