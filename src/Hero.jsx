@@ -42,7 +42,7 @@ const Hero = () => {
               Download CV
             </button>
           </a>
-          <a href="https://drive.google.com/file/d/1mvXFxLUb7iiemHOSqFUTyfxbaSAy85XQ/view?usp=drivesdk">
+          <a href="https://drive.google.com/file/d/13mAPBqS631k2OtLzBNS3-T70Zp48DbVK/view?usp=sharing">
             <button className="px-4 py-2 shadow-[inset_0_0_0_2px_#616467] text-black rounded-full tracking-widest uppercase font-bold bg-transparent  hover:text-blue-600  transition duration-200">
               Download My App
             </button>
